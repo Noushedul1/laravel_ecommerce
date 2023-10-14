@@ -19,6 +19,8 @@ use App\Http\Controllers\Frontend\HomeController;
 Route::controller(HomeController::class)->name('front.')->group(function(){
     Route::get('/','index')->name('index');
     Route::get('/redirect','redirect')->name('redirect');
+
+    Route::get('/product','product')->name('product');
 });
 // end of frontend
 

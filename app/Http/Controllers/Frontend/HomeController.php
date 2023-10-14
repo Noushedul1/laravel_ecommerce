@@ -19,4 +19,7 @@ class HomeController extends Controller
             return view('front.home');
         }
     }
+    public function product(){
+        return view('front.product');
+    }
 }
